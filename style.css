@@ -1,0 +1,77 @@
+
+#div1{
+    font-family: Arial;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 500px;
+}
+
+#h2{
+    font-size: 30px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    background: transparent;
+    font-family: Arial;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 20px;
+    overflow: hidden;
+}
+
+input:hover{
+    border: solid 2px purple;
+    transition-duration: 200ms;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+form{
+    border: solid 1px gray;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+#button{
+    margin-left: 110px;
+    border: solid 1px purple;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input:focus{
+    background: rgba(66, 19, 142, 0.846);
+    font-family: arial;
+    border: solid 1px purple;
+    transition-duration: 300ms;
+}
+
+#button:focus{
+    font-family: Arial;
+    border: solid 1px purple;
+    transition-duration: 300ms;
+    background: rgba(66, 19, 142, 0.846);
+    overflow: hidden;
+}
+
+#button:hover{
+    font-family: Arial;
+    transition-duration: 300ms;
+    border: solid 1px purple;
+    background: rgba(66, 19, 142, 0.846);
+}
+
+input::after{
+    transition-duration: 200ms;
+    transform:rotate(90deg);
+}
+
